@@ -1,0 +1,31 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-details {
+  align-self: flex-start;
+  margin-inline: 20%;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+}
+
+#generateBtn {
+  padding-inline: 30px;
+  padding-block: 15px;
+  background-color: #3f51b5;
+  border: none;
+  color: white;
+  transition-duration: 500ms;
+  transition: cubic-bezier();
+}
+
+#generateBtn:hover {
+  background-color: #303f9f;
+  scale: 1.1;
+}
